@@ -1,0 +1,15 @@
+REVIEW SENTIMENT ANALYSIS REPORT
+========================================
+
+Dataset records used: 1469
+Text column: Review
+Label column: Sentiment
+Training records: 1175
+Testing records: 294
+
+Model comparison:
+              Model  Accuracy  Precision   Recall  F1 Score
+Logistic Regression  0.557823   0.661189 0.557823  0.599401
+         Linear SVM  0.656463   0.667549 0.656463  0.657746
+
+Selected model: Linear SVM

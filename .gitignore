@@ -1,0 +1,27 @@
+# .gitignore for Sentiment Analysis System
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw Datasets (Keep full 33MB Dataset-SA.csv optionally or tracked via LFS if preferred)
+*.zip
+*.tar.gz
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
